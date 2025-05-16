@@ -1,0 +1,102 @@
+<html> 
+    <head> 
+        <title> Sign In</title>
+        <link rel="icon" href="user-lock-solid.svg">
+        <style> 
+
+@media only screen and (min-width: 1000px) {
+  body {
+    background-color: rgb(231, 222, 230);
+    width: 60%;
+    margin: auto;
+  }
+}
+            .inst {
+                text-align: center;
+                margin-top: 4px;
+                border: 2px solid #0f1111;
+                height: 70px;
+                width: 100%;
+                background-color: rgb(83, 83, 83);
+                color: #ffffff;
+                border-radius: 8px;
+            }
+            .inst:hover {
+                border: 2px solid rgb(252, 189, 15);
+            }
+            .instd {
+                margin-bottom: 6px;
+                margin-top: 6px;
+                padding-left: 8px;
+                border: 2px solid #0f1111;
+                border-radius: 8px;
+               }
+               input {
+                width: 100%;
+                height: 38px;
+               }
+                .main {
+                    margin-top: 50px;
+                    margin-bottom: 50px;
+                    border: 2px solid #0f1111;
+                    padding: 10px;
+                    border-radius: 8px;
+                }
+                .but {
+                     text-align: center;
+                     
+                    
+                }
+                button {
+                    width: 30%;
+                    height: 5%;
+                    font-size: 1.2rem;
+                }
+                .country:hover {
+                    font-weight: 700;
+                    border: 2px solid rgb(5, 5, 5);
+                }
+              
+        </style>
+    </head>
+       <body> 
+        <div class="inst"> 
+        <h2 class="hinst"> Please read the following instructions before filling your personal details.</h2> </div>
+        <div class="instd"> 
+        <h3> 1. Fill the information in <u>Block Letters</u> only.  </h3>
+        <h3> 2. We respect your privacy, safety and security, so we ensure that your information will not be misused for any activity on the internet.</h3>
+        <h3> 3. Do not refresh the page while entering the details. </h3>
+    </div>
+    
+        <section class="main" > 
+           <div class="logn">
+            <form class="log" action="home.html">
+             <input type="text" name="username" placeholder="Enter your full Name"> <br> <br> 
+            
+             <input type="email" name="email" placeholder="Enter your Email Id" required> <br> <br> 
+             <input type="password" name="password" placeholder="Enter your Password" required> <br> <br> 
+             <input type="text" name="course" placeholder="Course Name" required> <br> <br> 
+             <input type="number" name="age" min="18" max="100" placeholder="Age"> <br> <br> 
+             <input type="date" name="birthdate" placeholder="Birth Date">  <br> <br> 
+             <select class="country">
+                <option> Country</option>
+                <option> India</option>
+                <option> China</option>
+                <option> Japan</option>
+                <option> United States of America</option>
+                <option> United Kingdom</option>
+                <option> Nepal</option>
+                <option> Bhutan</option>
+             </select> <br> <br> 
+             Attach your Photograph <br>
+             <input type="file" name="Photo" placeholder="Photo" required ><br> <br> 
+             Choose your Favourite Color <br> 
+             <input type="color" name="favcolor" placeholder="Favourite Color"> <br> <br> 
+             <input type="tel" name="contact" placeholder="Enter your Phone Number" required> <br> <br> 
+             <div class="but"><button class="country" > Submit </button> </div>
+            </form>
+           </div>
+        </section>
+       </body>
+       
+</html>
